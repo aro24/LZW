@@ -1,9 +1,9 @@
 import java.util.Arrays;
 /*************************************************************************
  *  Compilation:  javac LZW.java
- *  Execution:    java LZW - < input.txt   (compress)
- *  Execution:    java LZW + < input.txt   (expand)
- *  Dependencies: BinaryIn.java BinaryOut.java
+ *  Execution:    java MyLZW - r < foo.txt > foo.lzw  (compress)
+ * There are 3 modes: r = reset, n = do nothing, m = monitor 
+ *  Execution:    java MyLZW + < foo.lzw > foo2.txt   (expand)
  *
  *  Compress or expand binary input from standard input using LZW.
  *
